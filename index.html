@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>まゆみのタロット鑑定書</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#1A0A26;--gold:#FFE9A8;--gold2:#F0E0A8;--head:#FFF2D0;--cream:#FBEAD6;--pink:#FF8FC4;--line:rgba(240,224,168,.45)}
+*{box-sizing:border-box}
+html{background:var(--ground)}
+body{margin:0;color:var(--cream);font-family:"Shippori Mincho","Hiragino Mincho ProN","Yu Mincho",serif;font-weight:700;line-height:1.9;
+ background:var(--ground);min-height:100vh;position:relative;z-index:0}
+body:before{content:"";position:absolute;top:0;left:0;right:0;height:820px;z-index:-1;
+ background:linear-gradient(rgba(26,10,38,.20),rgba(26,10,38,.45) 55%,var(--ground)),url(assets/bg.jpg) center 18%/cover no-repeat}
+main{max-width:560px;margin:0 auto;padding:40px 16px 56px}
+.glow{text-shadow:0 0 3px rgba(26,8,38,.75),0 2px 10px rgba(26,8,38,.6),0 0 12px rgba(255,248,224,.55),0 0 30px rgba(255,226,150,.35),0 0 60px rgba(230,170,60,.25)}
+.soft{text-shadow:0 0 3px rgba(26,8,38,.8),0 2px 10px rgba(26,8,38,.65),0 0 14px rgba(255,248,224,.30)}
+.eyebrow{text-align:center;color:var(--gold2);letter-spacing:.35em;font-size:13px;margin:0}
+h1{text-align:center;color:var(--gold);font-size:30px;letter-spacing:.12em;margin:6px 0 4px;line-height:1.5}
+h1 em{font-style:normal;color:var(--pink)}
+.rule{display:flex;align-items:center;gap:12px;color:var(--gold2);font-size:13px;letter-spacing:.3em;justify-content:center;margin:6px 0 26px}
+.rule:before,.rule:after{content:"";height:1px;width:56px;background:var(--line);box-shadow:0 0 8px rgba(255,226,150,.7)}
+.card-photo{display:block;width:150px;height:auto;margin:0 auto 22px;border-radius:8px;transform:rotate(-3deg);box-shadow:0 0 0 1px rgba(240,224,168,.5),0 0 28px rgba(255,226,150,.35),0 12px 30px rgba(0,0,0,.55)}
+.greet{text-align:center;color:var(--head);font-size:16px;margin:0 0 30px;background:radial-gradient(ellipse 70% 60% at 50% 50%,rgba(20,5,32,.55),transparent)}
+.greet p{margin:0 0 6px}
+h2{color:var(--gold);text-align:center;font-size:20px;letter-spacing:.2em;margin:40px 0 16px}
+.menu{display:grid;gap:18px}
+.item{position:relative;border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;background:linear-gradient(160deg,rgba(62,22,87,.72),rgba(30,10,44,.82));box-shadow:0 0 22px rgba(255,226,150,.10),inset 0 0 30px rgba(255,226,150,.05)}
+.item.pick{border-color:rgba(255,233,168,.85);box-shadow:0 0 26px rgba(255,226,150,.30),inset 0 0 30px rgba(255,226,150,.08)}
+.badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:linear-gradient(#C0272D,#7A1320);color:#F5DFA0;border:1px solid #E8C878;border-radius:99px;font-size:12px;padding:2px 14px;letter-spacing:.2em;box-shadow:0 0 14px rgba(232,200,120,.55);white-space:nowrap}
+.item h3{margin:0;color:var(--head);font-size:18px;letter-spacing:.06em}
+.price{color:var(--gold);font-size:34px;letter-spacing:.04em;line-height:1.3;margin:2px 0 6px}
+.price small{font-size:15px;margin-left:4px}
+.item p{margin:0;font-size:14px;color:var(--cream);font-weight:500;line-height:1.8}
+ol{padding-left:1.4em;margin:0}ol li{margin-bottom:6px}
+.box{border:1px solid rgba(240,224,168,.25);border-radius:14px;padding:16px 18px;background:rgba(26,8,38,.62);font-weight:500;font-size:15px}
+.box strong{color:var(--gold);font-weight:700}
+.note{font-size:13px;color:rgba(251,234,214,.85);font-weight:500}
+.mail{word-break:break-all}
+footer{text-align:center;margin-top:44px;font-size:13px;font-weight:500}
+a{color:var(--gold)}
+table{width:100%;border-collapse:collapse;font-size:14px;font-weight:500}
+th,td{text-align:left;padding:12px 8px;border-top:1px solid rgba(240,224,168,.22);vertical-align:top}
+th{width:34%;color:var(--gold);font-weight:700}
+@media (max-width:380px){h1{font-size:26px}.price{font-size:30px}}
+</style></head><body><main>
+
+<p class="eyebrow glow">TAROT READING</p>
+<h1 class="glow">まゆみの<br><em>タロット</em>鑑定書</h1>
+<div class="rule glow">恋愛</div>
+<img class="card-photo" src="assets/card.jpg" alt="まゆみのタロットカード" width="150" height="254">
+<div class="greet soft">
+<p>はじめまして、まゆみです。</p>
+<p>あなたとあの人のことを、タロットカードで丁寧に読み解き、文章の鑑定書にして公式LINEでお届けしています。</p>
+<p>言葉にしにくい気持ちも、どうぞそのままお聞かせください。</p>
+</div>
+<h2 class="glow">メニュー</h2>
+<div class="menu">
+<div class="item"><h3 class="soft">3枚引き</h3><div class="price glow">1,000<small>円（税込）</small></div><p class="soft">あの人の今の気持ち・あなたの心の奥・ふたりのこれから</p></div>
+<div class="item pick"><span class="badge">おすすめ</span><h3 class="soft">本格鑑定（ケルト十字）</h3><div class="price glow">5,000<small>円（税込）</small></div><p class="soft">10枚の展開で、あの人の本音・ふたりを止めているもの・これからの流れと、今日できる一歩（1,000〜1,500字）</p></div>
+<div class="item"><h3 class="soft">本格鑑定＋3か月</h3><div class="price glow">10,000<small>円（税込）</small></div><p class="soft">5,000円の内容に、この先3か月の流れと、ご質問のやり取り2回を足したもの</p></div>
+</div>
+<h2 class="glow">お届けの時間</h2>
+<div class="box soft">お支払いの確認から<strong>24時間以内</strong>にLINEでお届けします。できるだけ早く鑑定してお届けします。<br>「夜の22時に読みたい」など、お届けの時間にご希望があれば、お申し込みの時にLINEでお知らせください。<strong>ご希望の時間にお届けします。</strong></div>
+<h2 class="glow">ご利用の流れ</h2>
+<div class="box soft"><ol><li>公式LINEにお友だち登録します（Instagram・Threadsのプロフィールのリンクから）。</li><li>無料の鑑定で、ご相談の内容をうかがいます。</li><li>有料の鑑定をご希望の方は、LINEでお送りするお支払いページからお申し込みください。</li><li>お支払いの確認後、鑑定書をLINEでお届けします。</li></ol></div>
+<h2 class="glow">お支払い方法</h2>
+<div class="box soft">クレジットカード（Visa・Mastercard・JCB・American Express など）、Apple Pay（決済代行：Stripe）</div>
+<h2 class="glow">ご注意</h2>
+<div class="box soft note">占いは娯楽としてご提供するもので、結果を保証するものではありません。医療・法律・お金に関わるご判断は、専門の方にご相談ください。18歳未満の方の鑑定はお受けしていません。</div>
+<h2 class="glow">お問い合わせ</h2>
+<div class="box soft" style="text-align:center">窓口：しずく<br><span class="mail">hoshitsumugi.kanteisho@gmail.com</span></div>
+<footer class="soft"><a href="tokushoho.html">特定商取引法に基づく表記</a><br>© まゆみのタロット鑑定書</footer>
+</main></body></html>
